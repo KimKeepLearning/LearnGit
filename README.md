@@ -1,3 +1,3 @@
 git is a distributed version control ststem
 
-Git is a free software
+Git is  free software distributed ubder the GPL
