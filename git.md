@@ -25,3 +25,16 @@ git commit
 git push -u origin master
 ```
 
+
+
+```
+新建并切换分支
+git checkout -b <branch name>
+= git branch dev
+  git checkout dev
+列出分支
+git branch
+合并指定分支到当前分支
+git merge <branch>
+```
+
