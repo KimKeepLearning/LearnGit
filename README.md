@@ -6,3 +6,5 @@ git track changes
 what
 
 creat a branch dev
+
+分支管理策略
