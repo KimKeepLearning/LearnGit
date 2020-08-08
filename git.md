@@ -32,6 +32,8 @@ git push -u origin master
 git checkout -b <branch name>
 = git branch dev
   git checkout dev
+/
+git switch -c <branch>
 列出分支
 git branch
 合并指定分支到当前分支
