@@ -38,5 +38,16 @@ git switch -c <branch>
 git branch
 合并指定分支到当前分支
 git merge <branch>
+git merge --no-ff -m "merge with no ff" <branch>  //可以看见分支合并历史
 ```
 
+mater分支仅用来发布新版本，不能在上面干活
+
+```
+把bug提交的修改“复制”到当前分支，避免重复劳动
+git cherry-pick <commit>
+```
+
+<img src="C:\Users\18430\AppData\Roaming\Typora\typora-user-images\image-20200808213518030.png" alt="image-20200808213518030" style="zoom:150%;" />
+
+![image-20200808213604556](C:\Users\18430\AppData\Roaming\Typora\typora-user-images\image-20200808213604556.png)
