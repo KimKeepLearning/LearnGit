@@ -13,11 +13,15 @@ git diff <file>
 git log/reflog
 回退版本
 git reset --hard <commit id>/HEAD^
-丢弃工作区的修改
+用版本库替换工作区版本
 git checkout -- <file>
 删除文件
 rm <file>
 git rm <file>
 git commit
+关联远程库
+ git remote add origin git@github.com:KimKeepLearning/LearnGit.git
+推送至远程库
+git push -u origin master
 ```
 
